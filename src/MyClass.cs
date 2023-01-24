@@ -5,6 +5,7 @@
     {
         Console.WriteLine("Hello, World from Class MyClass!");
         IsInitialized = true;
+
     }
     public override string ToString()
     {
