@@ -5,6 +5,8 @@
         //Console.WriteLine("Hello, World!");
         //MyClass myclass = new MyClass();
 
+        /*
+        // Animal without constructor parameters
         var dog = new Dyr();
         dog.name = "Tom";
         dog.alder = 3;
@@ -22,7 +24,7 @@
         drage.alder = 100;
         drage.art = "drage";
         drage.DyreInfo();
-
+        */
  /*       if (myclass.IsInitialized)
         {
             Console.WriteLine("myclass is initalized");
@@ -31,8 +33,12 @@
  */
         //Console.WriteLine(myclass);//
         //myclass.greetings();
-       
-      
+        // Create a dice
+        Dice dice = new Dice();
+        // Roll single dice
+        Console.WriteLine("Rolled 1: " + dice.Roll());
+        // Roll 5 dices
+        Console.WriteLine("Rolled 5: " + String.Join(", ", dice.Roll(5)));
     }
     
 }

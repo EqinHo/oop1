@@ -1,6 +1,7 @@
 ﻿internal class Dyr
 {
-     public string name;
+     // fields
+     public string name;   
      public string art;
      public int alder;
     
